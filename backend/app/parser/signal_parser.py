@@ -69,7 +69,7 @@ def parse_signal(text):
         data["type"] = "SELL"
 
     # Detect symbol
-    symbol_match = re.search(r"\b(BTC/USDT|ETH/USDT|XAUUSD|XAUUSDm|XAGUSD|EURUSD|GBPUSD|USDJPY)\b", upper_text)
+    symbol_match = re.search(r"\b(BTC/USDT|ETH/USDT|XAUUSD|XAGUSD|EURUSD|GBPUSD|USDJPY)\b", upper_text)
     if symbol_match:
         data["symbol"] = symbol_match.group(1)
 
