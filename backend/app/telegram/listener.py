@@ -75,8 +75,8 @@ from app.core.connection_manager import broadcast
 import json
 
 
-api_id = 39732579
-api_hash = "722ab7a8bc27a6365cc81a60a65f5dd8"
+api_id = 
+api_hash = ""
 
 TARGET_GROUP_NAME = "Autobotsignal"
 
